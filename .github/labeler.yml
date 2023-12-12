@@ -1,0 +1,8 @@
+---
+terraform:
+  - changed-files:
+    - any-glob-to-any-file: terraform/**
+
+lambda:
+  - changed-files:
+    - any-glob-to-any-file: lambdas/**
